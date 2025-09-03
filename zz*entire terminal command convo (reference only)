@@ -1,0 +1,339 @@
+(base) vivaanpatel@Vivaans-Air riscv_cpu % iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+'VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % 'iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+quote> 
+quote> 
+(base) vivaanpatel@Vivaans-Air riscv_cpu % iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp 
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp                 # delete old build
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+rm: #: No such file or directory
+rm: delete: No such file or directory
+rm: old: No such file or directory
+rm: build: No such file or directory
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5
+tb_cpu.v:29: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % 
+ *  History restored 
+
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x | alu_res=         0 zero=1 branch=1 imm=         4
+T=35000 | PC=0000000c | x1=         1 x2=         1 x3=         x x4=         x | alu_res=         4 zero=0 branch=0 imm=         3
+T=45000 | PC=00000010 | x1=         1 x2=         1 x3=         4 x4=         x | alu_res=         5 zero=0 branch=0 imm=         4
+T=55000 | PC=00000014 | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         0 zero=1 branch=0 imm=         0
+T=65000 | PC=00000018 | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=75000 | PC=0000001c | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=85000 | PC=00000020 | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=95000 | PC=00000024 | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=105000 | PC=00000028 | x1=         1 x2=         1 x3=         4 x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=5000 | PC=00000000 | x1=         1 x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=15000 | PC=00000004 | x1=         1 x2=         x x3=         x x4=         x | alu_res=         1 zero=0 branch=0 imm=         1
+T=25000 | PC=00000008 | x1=         1 x2=         1 x3=         x x4=         x | alu_res=         0 zero=1 branch=1 imm=         8
+T=35000 | PC=00000010 | x1=         1 x2=         1 x3=         x x4=         x | alu_res=         5 zero=0 branch=0 imm=         4
+T=45000 | PC=00000014 | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         0 zero=1 branch=0 imm=         0
+T=55000 | PC=00000018 | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=65000 | PC=0000001c | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=75000 | PC=00000020 | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=85000 | PC=00000024 | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=95000 | PC=00000028 | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+T=105000 | PC=0000002c | x1=         1 x2=         1 x3=         x x4=         5 | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % touch data_mem.v
+open -a "Visual Studio Code" data_mem.v
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x | alu_res=        10 zero=0 branch=0 imm=        10
+T=5000 | PC=00000000 | x1=        10 x2=         x x3=         x x4=         x | alu_res=        10 zero=0 branch=0 imm=        10
+T=15000 | PC=00000004 | x1=        10 x2=         x x3=         x x4=         x | alu_res=        20 zero=0 branch=0 imm=        20
+T=25000 | PC=00000008 | x1=        10 x2=        20 x3=         x x4=         x | alu_res=        20 zero=0 branch=0 imm=         0
+T=35000 | PC=0000000c | x1=        10 x2=        20 x3=         x x4=         x | alu_res=        20 zero=0 branch=0 imm=         0
+T=45000 | PC=00000010 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         0 zero=1 branch=0 imm=         0
+T=55000 | PC=00000014 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=65000 | PC=00000018 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=75000 | PC=0000001c | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=85000 | PC=00000020 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=95000 | PC=00000024 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=105000 | PC=00000028 | x1=        10 x2=        20 x3=        10 x4=         x | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x | alu_res=         5 zero=0 branch=0 imm=         5
+T=5000 | PC=00000000 | x1=         5 x2=         x x3=         x x4=         x | alu_res=         5 zero=0 branch=0 imm=         5
+T=15000 | PC=00000004 | x1=         5 x2=         x x3=         x x4=         x | alu_res=         x zero=x branch=0 imm=         4
+T=25000 | PC=00000008 | x1=         5 x2=         x x3=         x x4=         x | alu_res=         0 zero=1 branch=0 imm=         0
+T=35000 | PC=0000000c | x1=         5 x2=         x x3=         x x4=         x | alu_res=        12 zero=0 branch=0 imm=         7
+T=45000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=55000 | PC=xxxxxxxX | x1=         5 x2=        12 x3=         x x4=         x | alu_res=         x zero=x branch=0 imm=         0
+T=65000 | PC=xxxxxxxx | x1=         5 x2=        12 x3=         x x4=         x | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=5000 | PC=00000000 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=15000 | PC=00000004 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         4
+T=25000 | PC=00000008 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         0 zero=1 branch=0 imm=         0
+T=35000 | PC=0000000c | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=        12 zero=0 branch=0 imm=         7
+T=45000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+T=55000 | PC=xxxxxxxX | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+T=65000 | PC=xxxxxxxx | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=5000 | PC=00000000 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=15000 | PC=00000004 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         8
+T=25000 | PC=0000000c | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=        12 zero=0 branch=0 imm=         7
+T=35000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+T=45000 | PC=xxxxxxxX | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+T=55000 | PC=xxxxxxxx | x1=         5 x2=        12 x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=5000 | PC=00000000 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=15000 | PC=00000004 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         8
+T=25000 | PC=0000000c | x1=         5 x2=         x x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=35000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=45000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+T=55000 | PC=0000000c | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=65000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=75000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+T=85000 | PC=0000000c | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=95000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=105000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % rm tb_cpu.vvp
+iverilog -o tb_cpu.vvp pc.v instr_mem.v regfile.v imm_gen.v control.v alu_control.v alu.v data_mem.v cpu_top.v tb_cpu.v
+vvp tb_cpu.vvp
+VCD info: dumpfile tb_cpu.vcd opened for output.
+T=0 | PC=00000000 | x1=         x x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=5000 | PC=00000000 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         5 zero=0 branch=0 imm=         5
+T=15000 | PC=00000004 | x1=         5 x2=         x x3=         x x4=         x x5=xxxxxxxx | alu_res=         x zero=x branch=0 imm=         8
+T=25000 | PC=0000000c | x1=         5 x2=         x x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=35000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=45000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+T=55000 | PC=0000000c | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=65000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=75000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+T=85000 | PC=0000000c | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=        12 zero=0 branch=0 imm=         7
+T=95000 | PC=00000010 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         8 zero=0 branch=0 imm=         0
+T=105000 | PC=00000008 | x1=         5 x2=        12 x3=         x x4=         x x5=00000008 | alu_res=         0 zero=1 branch=0 imm=         0
+tb_cpu.v:38: $finish called at 110000 (1ps)
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git init
+git remote add origin https://github.com/<your-username>/riscv-cpu-verilog.git
+git branch -M main
+Initialized empty Git repository in /Users/vivaanpatel/riscv_cpu/.git/
+zsh: no such file or directory: your-username
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git init
+git remote add origin https://github.com/<VNP012>/riscv-cpu-verilog.git
+git branch -M main
+Reinitialized existing Git repository in /Users/vivaanpatel/riscv_cpu/.git/
+zsh: no such file or directory: VNP012
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git init
+git branch -M main
+Reinitialized existing Git repository in /Users/vivaanpatel/riscv_cpu/.git/
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git remote add origin https://github.com/VNP012/riscv-cpu-verilog.git
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git add .
+git commit -m "Initial commit: Single-cycle RISC-V CPU core in Verilog"
+[main (root-commit) 333e28f] Initial commit: Single-cycle RISC-V CPU core in Verilog
+ 27 files changed, 4064 insertions(+)
+ create mode 100644 alu.v
+ create mode 100644 alu_control.v
+ create mode 100644 control.v
+ create mode 100644 cpu_top.v
+ create mode 100644 data_mem.v
+ create mode 100644 imm_gen.v
+ create mode 100644 instr_mem.v
+ create mode 100644 pc.v
+ create mode 100644 regfile.v
+ create mode 100644 tb_alu.v
+ create mode 100644 tb_alu.vcd
+ create mode 100755 tb_alu.vvp
+ create mode 100644 tb_cpu.v
+ create mode 100644 tb_cpu.vcd
+ create mode 100755 tb_cpu.vvp
+ create mode 100644 tb_fetch.v
+ create mode 100644 tb_fetch.vcd
+ create mode 100755 tb_fetch.vvp
+ create mode 100644 tb_imm_gen.v
+ create mode 100644 tb_imm_gen.vcd
+ create mode 100755 tb_imm_gen.vvp
+ create mode 100644 tb_pc.v
+ create mode 100644 tb_pc.vcd
+ create mode 100755 tb_pc.vvp
+ create mode 100644 tb_regfile.v
+ create mode 100644 tb_regfile.vcd
+ create mode 100755 tb_regfile.vvp
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git push -u origin main
+To https://github.com/VNP012/riscv-cpu-verilog.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/VNP012/riscv-cpu-verilog.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git push -u origin main
+To https://github.com/VNP012/riscv-cpu-verilog.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/VNP012/riscv-cpu-verilog.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git pull origin main --allow-unrelated-histories
+git push -u origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 4.08 KiB | 696.00 KiB/s, done.
+From https://github.com/VNP012/riscv-cpu-verilog
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+To https://github.com/VNP012/riscv-cpu-verilog.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/VNP012/riscv-cpu-verilog.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) vivaanpatel@Vivaans-Air riscv_cpu % git push -u origin main --force
+Enumerating objects: 29, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (29/29), 23.99 KiB | 4.80 MiB/s, done.
+Total 29 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/VNP012/riscv-cpu-verilog.git
+ + ad70b0e...333e28f main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+(base) vivaanpatel@Vivaans-Air riscv_cpu % 
